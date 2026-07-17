@@ -1,0 +1,541 @@
+/* =====================================
+   Manufacturing Operations Intelligence
+   Jeremiah Lupton Portfolio
+===================================== */
+
+
+/* Reset */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* Global */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:#0f172a;
+
+    color:#f8fafc;
+
+    line-height:1.6;
+
+}
+
+
+a {
+
+    text-decoration:none;
+
+}
+
+
+
+/* =========================
+   Navigation
+========================= */
+
+
+header {
+
+    background:#020617;
+
+    padding:20px 10%;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+}
+
+
+
+nav {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+nav h2 {
+
+    color:#38bdf8;
+
+}
+
+
+
+.nav-links a {
+
+    color:white;
+
+    margin-left:20px;
+
+}
+
+
+
+.nav-links a:hover {
+
+    color:#38bdf8;
+
+}
+
+
+
+/* =========================
+   Hero
+========================= */
+
+
+.hero {
+
+    min-height:85vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:60px 10%;
+
+}
+
+
+
+.hero-image {
+
+    width:600px;
+
+    max-width:90%;
+
+    border-radius:20px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.hero h1 {
+
+    font-size:3.5rem;
+
+    color:#38bdf8;
+
+}
+
+
+
+.hero h2 {
+
+    font-size:1.8rem;
+
+    margin:20px;
+
+}
+
+
+
+.hero p {
+
+    max-width:800px;
+
+    color:#cbd5e1;
+
+    font-size:1.1rem;
+
+}
+
+
+
+/* =========================
+   Buttons
+========================= */
+
+
+.button {
+
+    display:inline-block;
+
+    margin:25px 10px;
+
+    padding:14px 30px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:10px;
+
+}
+
+
+
+.button:hover {
+
+    background:#38bdf8;
+
+}
+
+
+
+.secondary {
+
+    background:#1e293b;
+
+}
+
+
+
+/* =========================
+   Sections
+========================= */
+
+
+section {
+
+    padding:70px 10%;
+
+}
+
+
+
+section h2 {
+
+    text-align:center;
+
+    font-size:2.5rem;
+
+    margin-bottom:40px;
+
+}
+
+
+
+/* =========================
+   Cards
+========================= */
+
+
+.cards {
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+
+
+.card {
+
+    width:300px;
+
+    background:#1e293b;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+}
+
+
+
+.card h3 {
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+}
+
+
+
+/* =========================
+   Metrics
+========================= */
+
+
+.stats {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+    margin-top:40px;
+
+}
+
+
+
+.stat-card {
+
+    background:#1e293b;
+
+    width:230px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+}
+
+
+
+.stat-card h3 {
+
+    color:#38bdf8;
+
+}
+
+
+
+/* =========================
+   Architecture
+========================= */
+
+
+.architecture {
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+
+
+.architecture-box {
+
+    width:350px;
+
+    max-width:90%;
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    border:1px solid #334155;
+
+}
+
+
+
+.architecture-box h3 {
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.arrow {
+
+    font-size:35px;
+
+    color:#38bdf8;
+
+}
+
+
+
+/* =========================
+   Gallery
+========================= */
+
+
+.gallery {
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+
+}
+
+
+
+.gallery img {
+
+    width:100%;
+
+    border-radius:15px;
+
+    background:#1e293b;
+
+    padding:10px;
+
+}
+
+
+
+/* =========================
+   Technology
+========================= */
+
+
+.tech {
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+
+
+.tech span {
+
+    background:#1e293b;
+
+    padding:12px 20px;
+
+    border-radius:20px;
+
+    color:#38bdf8;
+
+}
+
+
+
+/* =========================
+   Roadmap
+========================= */
+
+
+.timeline {
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+
+
+.timeline div {
+
+    background:#1e293b;
+
+    padding:25px;
+
+    margin:20px;
+
+    border-left:5px solid #38bdf8;
+
+}
+
+
+
+/* =========================
+   Footer
+========================= */
+
+
+footer {
+
+    background:#020617;
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#94a3b8;
+
+}
+
+
+
+footer a {
+
+    color:#38bdf8;
+
+}
+
+
+
+/* =========================
+   Mobile
+========================= */
+
+
+@media(max-width:768px){
+
+
+nav {
+
+    flex-direction:column;
+
+}
+
+
+.nav-links {
+
+    margin-top:20px;
+
+}
+
+
+
+.hero h1 {
+
+    font-size:2.5rem;
+
+}
+
+
+
+.architecture-box {
+
+    width:100%;
+
+}
+
+
+
+}
