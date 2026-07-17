@@ -45,17 +45,20 @@ tryCatch({
   source("scripts/04_create_manufacturing_charts.R")
     log_message("Manufacturing charts created successfully")
 
-  source("scripts/05_generate_recommendations.R")
+  source("scripts/05_export_dashboard_data.R")
+    log_message("Data dashboard exported")
+
+  source("scripts/06_generate_recommendations.R")
     log_message("Recommendations submitted successfully")
 
-  source("scripts/06_generate_report.R")
+  source("scripts/07_generate_report.R")
 
   log_message(
     "Report generated successfully"
   )
 
 
-  source("scripts/07_send_email.R")
+  source("scripts/08_send_email.R")
 
   log_message(
     "Email sent successfully"
