@@ -93,11 +93,16 @@ Email Distribution
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots & Demos
 
 ### Dashboard
 
 ![Dashboard](images/dashboard_overview.png)
+
+![Dashboard Demo](assets/Dashboard_Demo.mp4)
+
+### HTML File
+![HTML Demo](assets/HTML_Demo.mp4)
 
 ### Chart Examples
 
