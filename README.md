@@ -126,7 +126,9 @@ This automation can be adapted for:
 
 ![Email](images/email_example.png)
 
+### Github Actions Success
 
+![CI Pipeline](images/github_actions_success.png)
 ---
 
 
