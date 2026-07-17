@@ -99,12 +99,18 @@ Email Distribution
 
 ![Dashboard](images/dashboard_overview.png)
 
-![Dashboard Demo](assets/Dashboard_Demo.mp4)
+Click below to watch the dashboard walkthrough:
+
+[▶ Manufacturing Dashboard Demo](assets/Dashboard_Demo.mp4)
+
 
 ### HTML File
-![HTML Demo](assets/HTML_Demo.mp4)
 
-### Chart Examples
+Click below to watch the HTML exploration:
+
+[▶ Manufacturing HTML Demo](assets/HTML_Demo.mp4)
+
+### Charts
 
 ![OEE Chart](images/oee_chart.png)
 
