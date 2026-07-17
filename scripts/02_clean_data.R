@@ -1,32 +1,21 @@
-library(dplyr)
+library(tidyverse)
 library(lubridate)
 
-#-------------------------
-# Clean Sales Data
-#-------------------------
+# Clean production data
 
-# Convert Date column to Date format
-sales$Date <- ymd(sales$Date)
+production$Date <- ymd(production$Date)
 
-# Remove duplicate rows
-sales <- distinct(sales)
+# Remove duplicate records
+production <- distinct(production)
 
-# Remove rows with missing values
-sales <- na.omit(sales)
+# Remove missing values
+production <- na.omit(production)
 
-# Remove negative values
-sales <- sales %>%
-  filter(
-    Units >= 0,
-    Revenue >= 0
-  )
+# Display cleaned data summary
 
-# Calculate revenue per unit
-sales <- sales %>%
-  mutate(
-    RevenuePerUnit = Revenue / Units
-  )
+cat("Production data cleaned successfully\n")
+cat("Rows:", nrow(production), "\n")
+cat("Columns:", ncol(production), "\n")
 
-cat("\nData cleaned successfully!\n")
-cat("Rows:", nrow(sales), "\n")
-cat("Columns:", ncol(sales), "\n")
+print(head(production))
+

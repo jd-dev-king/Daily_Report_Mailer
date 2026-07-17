@@ -35,13 +35,6 @@ tryCatch({
     "KPI calculations completed"
   )
 
-
-  source("scripts/04_create_charts.R")
-
-  log_message(
-    "Charts created successfully"
-  )
-
   source("scripts/04_create_manufacturing_charts.R")
     log_message("Manufacturing charts created successfully")
 
