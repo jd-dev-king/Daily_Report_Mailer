@@ -120,7 +120,7 @@ Click below to watch the HTML exploration:
 
 ### Github Actions Success
 
-![CI Pipeline](images/github_actions_success.png)
+![CI Manufacturing Pipeline](images/Manufacturing_Ops_Pipeline_Screenshot.png)
 ---
 
 ## DevOps / CI-CD
